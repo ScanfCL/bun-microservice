@@ -1,0 +1,14 @@
+{
+  "name": "stuff-b",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "stuff-a": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

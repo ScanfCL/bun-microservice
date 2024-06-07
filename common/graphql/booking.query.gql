@@ -1,0 +1,6 @@
+query Cars {
+  cars {
+    id
+    name
+  }
+}
