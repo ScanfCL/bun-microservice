@@ -1,0 +1,26 @@
+{
+  "name": "car",
+  "version": "1.0.50",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@apollo/subgraph": "^2.8.0",
+    "@elysiajs/graphql-yoga": "^1.0.3",
+    "@erp/models": "workspace:*",
+    "@graphql-yoga/plugin-apollo-inline-trace": "^3.3.1",
+    "@prisma/client": "^5.15.0",
+    "elysia": "latest",
+    "garph": "^0.6.8",
+    "graphql": "^16.8.1",
+    "graphql-scalars": "^1.23.0",
+    "graphql-yoga": "^5.3.1",
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "gateway",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@apollo/gateway": "^2.8.0",
+    "@apollo/server": "^4.10.4",
+    "@elysiajs/apollo": "^1.0.3",
+    "@envelop/apollo-federation": "^5.0.0",
+    "elysia": "latest",
+    "graphql": "15",
+    "graphql-yoga": "^5.3.1"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
